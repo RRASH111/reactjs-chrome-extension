@@ -6,3 +6,23 @@ body {
     height: 400px;
     width: 400px;
 }
+
+.keywordify-table {
+    @apply w-full border-collapse mt-8 font-sans;
+  }
+  
+  .keywordify-table th, .keywordify-table td {
+    @apply border p-4 text-left;
+  }
+  
+  .keywordify-table th {
+    @apply bg-blue-500 text-white;
+  }
+  
+  .keywordify-table tbody tr:nth-child(even) {
+    @apply bg-gray-100;
+  }
+  
+  .keywordify-table tbody tr:hover {
+    @apply bg-gray-200;
+  }
